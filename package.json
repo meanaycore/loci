@@ -1,0 +1,15 @@
+{
+  "name": "loci",
+  "version": "0.0.1",
+  "description": "This app will help people locate pick up points ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akhona Mahlathi",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.0",
+    "bootstrap": "^4.0.0-alpha.6"
+  }
+}

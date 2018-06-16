@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf=8">
+        <title>loci</title>
+        <meta name="descript" content="loci pickup points">
+        <meta name"author" content="meanaycore">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="index.js"></script>
+       
+    </head>
+        <body class="" ng-app="app">
+            <div style="margin-top: 10%;" class="container" ng-controller="emp">
+              
+
+                Num1 is {{ num1 }} <br />
+
+                Num2 is {{ num2 }} <br />
+
+                Value of num1 <span ng-bind="num1"></span> <br />
+                Value of num1 <span ng-bind="num2"></span> <br />
+
+                Sum = {{ sum }} <br />
+                
+                                        <button ng-click="doDoubleAndSum()">Calc</button>
+            </div>
+
+
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
